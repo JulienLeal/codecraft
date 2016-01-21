@@ -1,0 +1,61 @@
+<!DOCTYPE html >
+<html lang="en" ng-app="MyApp">
+<head >
+	<title >Login</title >
+	<link href="../libs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" >
+	<link href="main.css" rel="stylesheet" >
+</head >
+
+<body >
+
+<nav  class="blue">
+
+</nav>
+
+<div class="row">
+	<div class="col s6 m4 l2" style="margin:30px;"></div>
+	<div class="col s2"></div>
+	<div class="col s6"></div>
+
+</div>
+
+
+<div id="formsContainer"class="row blue" ng-controller="LoginController">
+	<div class = "col s12 m12 l4" style="float:right;">
+		<form class="card-panel col s12 mycontent">
+		<div class="row"><h4>Login</h4></div>
+			<div class="row">
+				<div class="input-field">
+					<input id="textarea1" type="text" class="validate"></input>
+					<label for="textarea1">Login</label>
+				</div>
+			</div>
+			<div class="row">
+				<div class="input-field">
+					<input id="password" type="password" class="validate">
+					<label for="password">Password</label>
+				</div>
+			</div>
+			<center> <a style="margin-bottom:20px;" ng-click="login()" id="btnloginforms"class="waves-effect waves-light btn blue">Entrar</a> </center>
+			<center> <a  ref="#"id="esqueciSenha">Esqueci minha senha</a> </center>
+			<div class="row"></div>
+		</form>
+
+	</div>
+</div>
+
+<script src="../libs/angular/angular.min.js" ></script >
+<script src="../libs/angular/angular.min.js" ></script >
+<script src="LoginController.js" ></script >
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+
+
+</body >
+</html >
